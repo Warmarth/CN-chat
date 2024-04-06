@@ -2,5 +2,5 @@
 
 | Name          | Email                 |
 | ------------- | --------------------- |
-| Cobby Franky      | godsonibeaka@gmail.com  |
+| Cobby Franky  | godsonibeaka@gmail.com|
 | Jane Smith    | janesmith@example.com |

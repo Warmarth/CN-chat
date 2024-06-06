@@ -1,8 +1,22 @@
+// import Movies from './Components/Movie';
+// import Render from './Components/Render';
+// import { themeContext } from './Components/theme';
+// import themeDisplay from './Components/theme';
+// import Counter from './Components/counter';
+
+//import Anecdotes from './Components/Anecdotes';
+// import { useContext } from 'react';
+
 export default function App() {
+  const [theme, setTheme] = themeDisplay();
   return (
-    <div className="text-center">
-      <h1 className="text-3xl font-bold underline">Cobby and Nehal chat app</h1>
-      <button class="btn btn-accent btn-outline">Button</button>
-    </div>
+    <themeContext.Provider value={[theme, setTheme]}>
+      <div className="text-center">
+        {/* <Render /> */}
+        {/* {<Movies />} */}
+        {/* <Counter /> */}
+        {/*<Anecdotes />*/}
+      </div>
+    </themeContext.Provider>
   );
 }

@@ -4,7 +4,6 @@ import { useState } from 'react';
 export const FormBody = () => {
   // const [error, setError] = useState({});
   const [success, setSuccess] = useState(false);
-
   const [content, setContent] = useState({
     firstName: '',
     lastName: '',
@@ -48,7 +47,7 @@ export const FormBody = () => {
           <small>Thank you for completeting the form , we will be in touch soon</small>
         </div>
       )}
-      <form className=" w-4/6 h-[80vh] bg-slate-50 mx-auto  text-left text-sm px-4 space-y-2" onSubmit={handleSubmit}>
+      <form className=" w-4/6  bg-slate-50 mx-auto  text-left text-[.768rem] p-4 space-y-2" onSubmit={handleSubmit}>
         <h1 className="text-xl">Contact Form</h1>
         <div className="flex bg-white gap-3 flex-wrap flex-1  text-black">
           <InputForm
@@ -112,7 +111,8 @@ export const FormBody = () => {
             onChange={handleChange}
             className={`  rounded-md bg-slate-200`}
             divclassName={`flex flex-col `}
-            placeholder="Message"
+            placeholder=""
+            cols="10"
           />
         </div>
 

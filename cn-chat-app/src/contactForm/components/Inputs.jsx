@@ -11,7 +11,7 @@ export const Message = ({ label, divclassName, value, onChange, ...props }) => {
   return (
     <div className={divclassName}>
       <p>{label}</p>
-      <textarea name="" cols="4" rows="4" value={value} onChange={onChange} {...props}></textarea>
+      <textarea name="" rows="7" value={value} onChange={onChange} {...props}></textarea>
     </div>
   );
 };

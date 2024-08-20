@@ -1,8 +1,8 @@
-const InputForm = ({ divclassName, label, onChange, value, ...props }) => {
+const InputForm = ({ divclassName, label, checked, onChange, value, ...props }) => {
   return (
     <div className={divclassName}>
       <p>{label}</p>
-      <input onChange={onChange} value={value} {...props} required />
+      <input onChange={onChange} value={value} {...props} required checked={checked} />
     </div>
   );
 };

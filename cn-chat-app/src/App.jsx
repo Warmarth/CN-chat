@@ -8,8 +8,8 @@
 // import { Displayer } from './Components/huston/Render';
 // import Navbar from './Components/digitomize/navbar';
 // import Sidebar from './Components/sidebar';
-// import Countries from './Api/countries';
-import { FormBody } from './contactForm/formBody';
+import Countries from './Api/countries';
+// import { FormBody } from './contactForm/formBody';
 
 export default function App() {
   // const [theme, setTheme] = themeDisplay();
@@ -45,8 +45,8 @@ export default function App() {
       {/* <Navbar nav={navItems} /> */}
       {/* <Displayer /> */}
       {/* <Sidebar /> */}
-      {/* <Countries /> */}
-      <FormBody />
+      <Countries />
+      {/* <FormBody /> */}
     </div>
     // </themeContext.Provider>
   );
